@@ -16,3 +16,6 @@ GET     /assets/*file               controllers.Assets.versioned(file)
 GET     /todo/helloworld            controllers.TodoController.helloworld()
 # for ToDo sample app ToDo list
 GET     /todo                       controllers.TodoController.list()
+# for ToDo sample app ToDO create
+GET     /todo/new                   controllers.TodoController.todoNew()
+POST    /todo                       controllers.TodoController.todoAdd()
